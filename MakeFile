@@ -1,0 +1,8 @@
+all:
+	gcc matrix.c -o matrix -lpthread
+
+run:
+	./matrix 10 2 1
+
+clean:
+	rm -f matrix
